@@ -1,0 +1,139 @@
+body{
+  background-color:black;
+}
+
+h1, h2{
+  color: white;
+  margin: 0;
+  position: relative;
+  top: 10%
+}
+
+p{
+  color: white;
+  left: 5%;
+  position: relative;
+  font-size: large;
+}
+
+nav{
+  overflow: hidden;
+}  
+
+nav ul{
+  background: linear-gradient(to right, #00ff00, #00ffff, #1858ff);
+  width: 100%;
+  position: fixed;
+  margin: 0;
+  padding: 0;
+  float: left;
+  background-color: black;
+  z-index: 10;
+}
+
+nav ul li{
+  float: left;
+  width: 33.33%;
+}
+
+nav ul li a{
+  color: black;
+  display: block;
+  padding: 25px 10px;
+  text-align: center;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+nav ul li a:hover{
+  color: green;
+  background-color: black;
+}
+
+.audioWave{
+  font-family: 'Audiowide', sans-serif;
+}
+
+li{
+  list-style: none;
+}
+
+div{
+  padding: 10% 10%;
+}
+
+footer{
+  width: 50%;
+  border-style:dashed;
+  border-top-color: #00ffff;
+  border-left-color: #00ff00;
+  border-bottom-color: #1858ff;
+  border-right-color: #00ff00;
+}
+
+a{
+  color: #00ff00;  
+}
+
+#elementary h2, #elementary p{
+  color: #ff0000;
+}
+
+#middleSchool h2, #middleSchool p{
+  color: #fff300;
+}
+
+#highSchool h2, #highSchool p{
+  color: #8000ff;
+}
+
+#ContactInfo h2, #ContactInfo p{
+  color: #ff18ff;
+}
+#Education h2, #Education p{
+  color: #1bffff;
+}
+
+#Skills h2, #Skills p{
+color: #d4145a; 
+}
+
+#Work h2, #Work p{
+color: #fbb03b;
+}
+
+#Volunteering h2, #Volunteering p{
+color: #009245;
+}
+
+#Accomplishments h2, #Accomplishments p{
+  color:  #fcee21;
+}
+
+#Naruto{
+  display: block;
+  margin: 0px;
+  padding: 80px;
+  border: 0px;
+}
+
+#Naruto h1{
+  font-size: 32px;
+  color: orange;
+}
+
+#Naruto p{
+  font-size: 18px;
+  color: orange;
+  
+}
+
+.center{
+  text-align: center;
+}
+
+img{
+  position: relative;
+  width: 231.4px;
+  left: 75px;
+}
