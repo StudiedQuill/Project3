@@ -3,14 +3,12 @@ body{
 }
 
 h1, h2{
-  color: white;
   margin: 0;
   position: relative;
   top: 10%
 }
 
 p{
-  color: white;
   left: 5%;
   position: relative;
   font-size: large;
@@ -58,10 +56,6 @@ li{
   list-style: none;
 }
 
-div{
-  padding: 10% 10%;
-}
-
 footer{
   width: 50%;
   border-style:dashed;
@@ -69,6 +63,7 @@ footer{
   border-left-color: #00ff00;
   border-bottom-color: #1858ff;
   border-right-color: #00ff00;
+  color: white;
 }
 
 a{
@@ -112,8 +107,7 @@ color: #009245;
 
 #Naruto{
   display: block;
-  margin: 0px;
-  padding: 80px;
+  margin: 120px;
   border: 0px;
 }
 
@@ -136,4 +130,25 @@ img{
   position: relative;
   width: 231.4px;
   left: 75px;
+}
+
+.pad{
+  padding: 11%;
+  color: white;
+}
+
+#border {
+  width: 700px;
+  height: 450px;
+  background-color: #00ffff;
+  margin: auto;
+  overflow: hidden;
+  color: black;
+}
+#frame {
+  width: 700px;
+  height: 500px;
+  background-color: #ccc;
+  margin: 30px auto;
+  color: black;
 }
