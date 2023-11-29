@@ -152,3 +152,34 @@ a{
   margin: 30px auto;
   color: black;
 }
+@media (orientation: landscape){
+	h1{
+		padding: 5%;
+	}
+	h2{
+		padding: 2.5%;
+	}
+	.pad{
+		padding: 9%;
+	}
+	#border{
+		margin-top: 15%;
+		margin-bottom: 5%;
+	}
+}
+@media (orientation: portrait){
+	h1{
+		padding: 5%;
+	}
+	nav ul{
+		height: 4%;
+	}
+	.pad{
+		padding: 5%;
+	}
+	#border{
+		height: 5%;
+		margin-top: 15%;
+		margin-bottom: 5%;
+	}
+}
